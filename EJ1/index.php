@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 1 - EPD7-Grupo-12</title>
+        <title>Ejercicio 1 - EPD7-Grupo-12 (PR)</title>
     </head>
     <body>
         <?php
