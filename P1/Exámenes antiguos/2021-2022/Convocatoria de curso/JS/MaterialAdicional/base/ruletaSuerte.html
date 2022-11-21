@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Ruleta de la suerte</title>
+    <link rel="stylesheet" href="ruletasuerte.css">
+    <script type="text/javascript" src="funcionesProporcionadas.js"></script>
+    <script type="text/javascript" src="funcionesRuletaSuerte.js"></script>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="jQueryRuletaSuerte.js"></script>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="img/ruleta.jpg">
+        <figcaption>La ruleta de la suerte</figcaption>
+      </figure>
+    </header>
+    <main>
+      <div id="configurarPartida">
+        <h1>Configurar partida</h1>
+        <div class="contenido">
+            <label for="numeroJugadores">N&uacute;mero de jugadores: </label>
+            <select id="numeroJugadores" name="numeroJugadores" onchange="muestraFormularioJugadores()"  >
+              <option value="0" selected="selected"> Seleccionar</option>
+              <option value="2"> 2 Jugadores</option>
+              <option value="3"> 3 Jugadores</option>
+              <option value="4"> 4 Jugadores</option>
+            </select>
+            <ul id="infoJugadores">
+            </ul>
+            <button id="iniciaPartida" disabled="disabled" onclick="cargarInfoJugadores()" >Iniciar partida</button>          
+        </div>
+      </div>
+      <div id="partida" class="oculto">
+        <h1>Partida</h1>
+        <div class="contenido">
+          <h2>Frase c&eacute;lebre: "<span id="pista" ></span>" </h2>
+          <span id="panel"></span>
+          <h3>Recompensa por resolver: <span id="valorPanel"></span> puntos </h3>
+          <div>
+            <div id="infoPartida">
+              <h3>Turno de <span id="turnoJugador"></span> </h3>
+              <span id="mensaje" class="msgError"></span>
+            </div>
+            <div>
+              <button id="girarRuleta" onclick="giraRuleta()">Girar Ruleta</button>
+              Resultado: <span id="resultadoRuleta"></span>
+            </div>
+            <div id="accionLetras" class="oculto">
+              Pruebe a descubrir una letra:
+              <div id="letrasDisponibles">
+                <button onclick="descubreLetra(this)">A</button>
+                <button onclick="descubreLetra(this)">B</button>
+                <button onclick="descubreLetra(this)">C</button>
+                <button onclick="descubreLetra(this)">D</button>
+                <button onclick="descubreLetra(this)">E</button>
+                <button onclick="descubreLetra(this)">F</button>
+                <button onclick="descubreLetra(this)">G</button>
+                <button onclick="descubreLetra(this)">H</button>
+                <button onclick="descubreLetra(this)">I</button>
+                <button onclick="descubreLetra(this)">J</button>
+                <button onclick="descubreLetra(this)">K</button>
+                <button onclick="descubreLetra(this)">L</button>
+                <button onclick="descubreLetra(this)">M</button>
+                <button onclick="descubreLetra(this)">N</button>
+                <button onclick="descubreLetra(this)">O</button>
+                <button onclick="descubreLetra(this)">P</button>
+                <button onclick="descubreLetra(this)">Q</button>
+                <button onclick="descubreLetra(this)">R</button>
+                <button onclick="descubreLetra(this)">S</button>
+                <button onclick="descubreLetra(this)">T</button>
+                <button onclick="descubreLetra(this)">U</button>
+                <button onclick="descubreLetra(this)">V</button>
+                <button onclick="descubreLetra(this)">W</button>
+                <button onclick="descubreLetra(this)">X</button>
+                <button onclick="descubreLetra(this)">Y</button>
+                <button onclick="descubreLetra(this)">Z</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="resumenPartida" class="oculto">
+          <h2>Resumen de Partida</H2>
+          <ol id="ranking">
+          </ol>
+          <button id="volverAJugar">Volver a Jugar</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>Programaci&oacute;n Avanzada - Prueba JS y JQuery</span>
+    </footer>
+    <script type="text/javascript">
+      inicializaParametros();
+    </script>
+  </body>
+</html>

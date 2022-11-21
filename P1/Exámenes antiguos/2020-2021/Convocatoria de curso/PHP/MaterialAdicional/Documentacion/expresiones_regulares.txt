@@ -1,0 +1,13 @@
+
+Validar email corporativo:
+
+/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@equisystems.com$/i
+
+Validar formato de fecha correcto (dd/mm/aaaa):
+
+/^([0-9]{2})\/([0-9]{2})\/([0-9]{4})/
+
+Validar número entero
+
+/^\d+$/
+

@@ -1,0 +1,53 @@
+Programación Avanzada - Examen de HTML & CSS
+
+Galería Fotográfica
+
+- Inicio |
+- Retratos |
+- Naturaleza 
+
+Imagen 01.jpg
+Siberia
+La tierra dormida
+
+
+Fotografía de retrato
+retrato1.jpg
+Fotografía de retrato 1
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+----
+Fotógrafo: Desconocido
+
+
+retrato2.jpg
+Austin Wade
+Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat
+----
+Fotógrafo: Desconocido
+
+
+retrato3.jpg
+Austin Wade
+Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+----
+Fotógrafo: Desconocido
+
+
+retrato4.jpg
+Austin Wade
+Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+----
+Fotógrafo: Desconocido
+
+Nombre
+Tipo de fotografía
+Cuenta de Instagram
+Javier Somoza
+Paisaje
+https://www.instagram.com/javier_somoza - Javier Somoza on Instagram
+Lee Jeffries
+Retrato
+https://www.instagram.com/lee_jeffries - Lee Jeffries on Instagram
+Garet King
+Misc
+https://www.instagram.com/shortstache - ShortStache on Instagram

@@ -1,0 +1,41 @@
+<html><head>
+                <meta charset="UTF-8">
+                <title>PA - Examen PHP (Diciembre, 2018)</title>
+            </head>
+            <body>
+                                <h1>Gestor de tareas</h1>
+                <h2>Bienvenido Usuario jefe</h2>
+                <h3>Insertar nueva tarea</h3>
+                <hr>
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <table>
+                        <tbody><tr>
+                            <td>Título de la tarea: </td>
+                            <td><input type="text" name="titulo"> </td>
+                        </tr>
+                        <tr>
+                            <td>Descripción: </td>
+                            <td><input type="text" name="descripcion"> </td>
+                        </tr>
+                        <tr>
+                            <td>Perfiles y tiempo: </td>
+                            <td>        
+                                <input type="checkbox" name="perfilP" value="P"> Programador <input type="text" name="tiempoP" placeholder="Tiempo Programador"><br>
+                                <input type="checkbox" name="perfilAP" value="AP"> Analista-Programador <input type="text" name="tiempoAP" placeholder="Tiempo Analista-Programador"><br>
+                                <input type="checkbox" name="perfilA" value="A"> Analista <input type="text" name="tiempoA" placeholder="Tiempo Analista"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Anexo: </td>
+                            <td><input type="file" name="anexo"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" name="btnInsertar" value="Insertar">
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </form>
+            
+        
+        </body></html>

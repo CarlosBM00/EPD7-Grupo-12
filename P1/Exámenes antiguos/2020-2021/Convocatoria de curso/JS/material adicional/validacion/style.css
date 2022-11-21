@@ -1,0 +1,12 @@
+.error {
+	color: 	red;
+}
+
+input, textarea{
+	width: 15%;
+	height: 30px;
+}
+
+textarea{
+	height: 100px;
+}

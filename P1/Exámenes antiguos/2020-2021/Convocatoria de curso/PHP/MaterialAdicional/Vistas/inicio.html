@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina inicial</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>EquiSystems - Registro de jornada</h1>
+                <h2>¡Hola ramon.ramirez!</h2>
+
+                    <p style="color: blue; font-weight: bold">Se ha borrado el registro de jornada con id = 8</p>
+        
+        <form action="inicio.html" method="post">
+            <input type="submit" value="Cerrar sesión" name="btnlogout"/>
+        </form>
+        <br/>
+        <table border="1">
+            <tr>
+                <th>D&iacute;a</th>
+                <th>Horas</th>
+                <th>Concepto</th>
+                <th>Acci&oacute;n</th>
+            </tr>
+                                <tr>
+                        <td>30/11/2020</td>
+                        <td>8</td>
+                        <td>Tareas de mantenimiento semanal</td>
+                        <td>
+                            <form action="borraRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="1" />
+                                <input type="submit" value="Borrar" name="btnBorrar" />
+                            </form>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td>01/12/2020</td>
+                        <td>8</td>
+                        <td>Trabajos varios solicitados por superiores</td>
+                        <td>
+                            <form action="borraRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="2" />
+                                <input type="submit" value="Borrar" name="btnBorrar" />
+                            </form>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td>02/12/2020</td>
+                        <td>8</td>
+                        <td>Asistencia a curso de proveedor</td>
+                        <td>
+                            <form action="borraRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="3" />
+                                <input type="submit" value="Borrar" name="btnBorrar" />
+                            </form>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td>03/12/2020</td>
+                        <td>8</td>
+                        <td>Montaje instalaciones para curso</td>
+                        <td>
+                            <form action="borraRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="4" />
+                                <input type="submit" value="Borrar" name="btnBorrar" />
+                            </form>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td>04/12/2020</td>
+                        <td>8</td>
+                        <td>Reviso instalaciones con supervisor</td>
+                        <td>
+                            <form action="borraRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="5" />
+                                <input type="submit" value="Borrar" name="btnBorrar" />
+                            </form>
+                        </td>
+                    </tr>
+                            </table>
+        <br/>
+        <table border="0">
+            <tr>
+                <td>
+                    <form action="creaRegistro.html" method="post">
+                        <input type="submit" value="Añadir registro" name="btnCrearRegistro"/>
+                    </form>
+                </td>
+                <td>
+                    <form action="recuperarRegistro.html" method="post">
+                        <input type="submit" value="Recuperar registros" name="btnRecuperar"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

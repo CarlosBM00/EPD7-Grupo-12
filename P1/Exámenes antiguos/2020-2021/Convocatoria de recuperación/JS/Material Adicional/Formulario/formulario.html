@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Procesamiento de formularios</title>
+	<style>
+		body{text-align: center;}
+		.error{color:red; font-size: 12pt;}
+		input[type=text]{width: 20%;height: 20px;margin-top:1%;margin-bottom: 1%; text-align: center;}
+	</style>
+</head>
+<body>
+	<h1>VACUNACIÓN COVID19</h1><br/>
+	<div id="erroresEnvio"></div>
+
+	<form action="#" name="altaPrueba" id="altaPrueba" method="post">
+		<label>Nombre del paciente</label> <br>
+		<input type="text" name="nombrePaciente">
+		<br>
+		<label>Apellidos del paciente</label> <br>
+		<input type="text" name="apellidosPaciente">
+		<br>
+		<label>DNI del paciente</label> <br>
+		<input type="text" name="dni">
+		<br>
+		<label>Vacuna</label> <br>
+		<select name="select" name="vacuna">
+  			<option value="none" selected>Seleccione una vacuna</option>
+  			<option value="astra">Astrazeneca</option>
+  			<option value="pfizer">Pfizer</option>
+  			<option value="janssen">Janssen</option>
+  			<option value="sputnik">Sputnik</option>
+		</select>
+		<br/><br/>
+		<div class="seleccionDosis">
+		<input type="radio" name="dosis" value="primera"> Primera dosis <br>
+		<input type="radio" name="dosis" value="segunda" > Segunda dosis<br>
+		</div>
+		<br>
+		<br><br>
+		<button type="submit">Guardar</button>
+	</form>
+</body>
+</html>

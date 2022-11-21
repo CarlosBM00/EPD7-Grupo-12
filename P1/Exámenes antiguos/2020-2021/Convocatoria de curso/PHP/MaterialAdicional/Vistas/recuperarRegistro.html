@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina de registro</title>
+    </head>
+    <body>
+        <h1>Recuperar registros de jornada</h1>
+                <table border="1">
+            <tr>
+                <th>D&iacute;a</th>
+                <th>Horas</th>
+                <th>Concepto</th>
+                <th>Acci&oacute;n</th>
+            </tr>
+                                <tr>
+                        <td>05/12/2020</td>
+                        <td>4</td>
+                        <td>Guardias Sabado</td>
+                        <td>
+                            <form action="recuperarRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="8" />
+                                <input type="submit" value="Recuperar" name="btnRecuperarRegistro" />
+                            </form>
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td>06/12/2020</td>
+                        <td>3</td>
+                        <td>Guardias Domingo</td>
+                        <td>
+                            <form action="recuperarRegistro.html" method="post">
+                                <input type="hidden" name="idRegistroJornada" value="9" />
+                                <input type="submit" value="Recuperar" name="btnRecuperarRegistro" />
+                            </form>
+                        </td>
+                    </tr>
+                            </table>
+        <br/>
+        <table border="0">
+            <tr>
+                <td colspan="2">
+                    <form action="inicio.html" method="post">
+                        <input type="submit" value="Volver" name="btnVolver"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

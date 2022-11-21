@@ -1,0 +1,102 @@
+header,main,aside,footer{
+  padding: 0.5% 0.5%;
+  display:inline-block;
+}
+
+header{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+header figure figcaption{
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+main{
+  width: 100%;
+}
+
+main .contenido{
+  padding: 0% 2%;
+}
+
+main h1{
+  font-size: 16pt;
+}
+
+main h2{
+  font-size: 14pt;
+}
+
+main h3{
+  font-size: 12pt;
+}
+
+main h3 span{
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+}
+
+main div{
+  margin:5pt;
+}
+
+#pista{
+  font-style: italic;
+  color: blue;
+}
+#panel{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16pt;
+  letter-spacing: 3pt;
+  padding: 2pt;
+  background-color: cyan;
+  border: 2pt solid blue;
+  margin-left: 5pt;
+}
+#valorPanel{
+  color: green;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.msgAcierto, .msgError{
+  width: 100%;
+  display: block;
+  margin-left: 5pt;
+  margin-bottom: 10pt;
+  font-size: 14pt;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.msgAcierto {
+  color: green;
+}
+
+.msgError {
+  color: red;
+}
+
+footer{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.oculto{
+  visibility: hidden;
+  display:none;
+}
+
+* {
+  box-sizing: border-box;
+}
+

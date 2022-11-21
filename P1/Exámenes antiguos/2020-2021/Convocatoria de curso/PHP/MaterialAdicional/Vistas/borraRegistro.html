@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Confirmar borrado de registro</title>
+    </head>
+    <body>
+        <h1>Borrar registro de jornada</h1>
+
+        <form action="borraRegistro.html" method="post">
+            <input type="hidden" name ="idRegistroJornada" value="8 "/>
+            <table style="text-align: left">
+                <tr>
+                    <th>IP Origen:</th>
+                    <td>::1</td>
+                </tr>
+                <tr>
+                    <th>Email del usuario:</th>
+                    <td>ramon.ramirez@equisystems.com</td>
+                </tr>
+                <tr>
+                    <th>Dia:</th>
+                    <td>05/12/2020</td>
+                </tr>
+                <tr>
+                    <th>Horas:</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Concepto:</th>
+                    <td>Guardias Sabado</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Cancelar" name="btncancel"></td>
+                    <td><input type="submit" value="Confirmar borrado" name="btnConfirmaBorrado"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

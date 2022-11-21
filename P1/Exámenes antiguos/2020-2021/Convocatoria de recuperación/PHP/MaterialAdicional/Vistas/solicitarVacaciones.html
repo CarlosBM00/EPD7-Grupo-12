@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Añadir registro de jornada</title>
+    </head>
+<body>
+    <h1>Añadir registro de jornada</h1>
+    <p style="color: red; font-weight: bold">Debe informar el dia de inicio del periodo de vacaciones a solicitar</p>
+	<form action="solicitarVacaciones.php" method="post">
+            <table style="text-align: left">
+                <tr>
+                    <th>Empleado:</th>
+                    <td>104 - Manuela Aguilar Fuentes</td>
+                </tr>
+                <tr>
+                    <th>Fecha Inicio (formato dd/mm/aaaa):</th>
+                    <td><input type="text"  name="fInicio" title="Formato: dd/mm/aaaa" value=""></td>
+                </tr>
+                <tr>
+                    <th>Fecha Fin (formato dd/mm/aaaa):</th>
+                    <td><input type="text" name="fFin" title="Formato: dd/mm/aaaa" value=""></td>
+                </tr>
+                <tr>
+                    <th>N&uacute;mero de d&iacute;as:</th>
+                    <td><input type="text" name="numDias" title="Formato numérico" value=""></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="Guardar" name="btnsave"></td>
+                    <td><input type="submit" value="Cancelar" name="btncancel"></td>
+                </tr>
+            </table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Login</title>
+    </head>
+<body>
+    <h1>Iniciar sesi&oacute;n</h1>
+	            <p style="color: red; font-weight: bold">Debe introducir el id de usuario</p>
+		<form action="login.php" method="post">
+            <p>
+                <span>ID de Usuario:</span>
+                <input type="text" name="idUsuario" value=""/>
+            </p>
+            <p>
+                <span>Contraseña:</span> 
+                <input type="password" name="clave"/>
+            </p>
+            <input type="submit" value="Cancelar" name="btncancel"/>
+            <input type="submit" value="Iniciar sesión" name="btnlogin"/>
+            <input type="submit" value="Olvidar datos" name="btnOlvidaDatos"/>
+	</form>
+</body>
+</html>

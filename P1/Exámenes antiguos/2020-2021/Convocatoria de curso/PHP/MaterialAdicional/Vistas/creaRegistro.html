@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>Añadir registro de jornada</title>
+    </head>
+<body>
+    <h1>Añadir registro de jornada</h1>
+	<form action="creaRegistro.html" method="post">
+            <table style="text-align: left">
+                <tr>
+                    <th>IP Origen:</th>
+                    <td>::1</td>
+                </tr>
+                <tr>
+                    <th>Email del usuario:</th>
+                    <td>ramon.ramirez@equisystems.com</td>
+                </tr>
+                <tr>
+                    <th>Dia (formato dd/mm/aaaa):</th>
+                    <td><input type="text" name="dia" title="Formato: dd/mm/aaaa" value=""></td>
+                </tr>
+                <tr>
+                    <th>Horas:</th>
+                    <td><input type="text" name="horas" tittle="Indique la cantidad de horas trabajadas, use numeros enteros" value=""></td>
+                </tr>
+                <tr>
+                    <th>Concepto:</th>
+                    <td><input type="text" name="concepto" title="Indique un breve resumen de su jornada" value=""></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Guardar" name="btnsave"></td>
+                    <td><input type="submit" value="Cancelar" name="btncancel"></td>
+                </tr>
+            </table>
+	</form>
+</body>
+</html>

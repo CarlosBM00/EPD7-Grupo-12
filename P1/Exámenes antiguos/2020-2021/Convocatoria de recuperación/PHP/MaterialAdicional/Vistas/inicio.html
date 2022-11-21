@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gestor de Vacaciones</title>
+    </head>
+    <body>
+        <h1>Gesti&oacute;n solicitudes de vacaciones</h1>
+            <h2>Usuario: 104 (Manuela Aguilar Fuentes)</h2>
+        <h3>Dias de vacaciones disponibles: 4 </h3>
+        <form action="inicio.php" method="post">
+            <input type="submit" value="Cerrar sesión" name="btnlogout"/>
+        </form>
+        <br/>
+        <form action="solicitarVacaciones.php" method="post">
+            <input type="submit" value="Solicitar vacaciones" name="btnSolicitaVacaciones" disabled="disabled"  />
+        </form>
+            <br/>
+        <table border="1">
+            <tr>
+                <th>ID Empleado</th>
+                <th>Fecha inicio</th>
+                <th>Fecha fin</th>
+                <th>Dias de vacaciones</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+                    <tr>
+                <td>104</td>
+                <td>01/06/2021</td>
+                <td>06/06/2021</td>
+                <td>4</td>
+                <td>Aprobado</td>
+                <td>                </td>
+
+                        </tr>
+                    <tr>
+                <td>105</td>
+                <td>04/05/2021</td>
+                <td>02/06/2021</td>
+                <td>22</td>
+                <td>Aprobado</td>
+                <td>                </td>
+
+                        </tr>
+                    <tr>
+                <td>104</td>
+                <td>01/08/2021</td>
+                <td>19/08/2021</td>
+                <td>14</td>
+                <td>Aprobado</td>
+                <td>                </td>
+
+                        </tr>
+                    <tr>
+                <td>101</td>
+                <td>01/07/2021</td>
+                <td>30/07/2021</td>
+                <td>22</td>
+                <td>Solicitado</td>
+                <td>                    <form action="inicio.php" method="post">
+                        <input type="hidden" name="idVacaciones" value="7" />
+                        <input type="submit" value="Aprobar" name="btnAprobar" />
+                        <input type="submit" value="Rechazar" name="btnRechazar" />
+                    </form>
+                                    </td>
+
+                        </tr>
+                    <tr>
+                <td>103</td>
+                <td>02/01/2021</td>
+                <td>29/01/2021</td>
+                <td>20</td>
+                <td>Cancelado</td>
+                <td>                </td>
+
+                        </tr>
+                    <tr>
+                <td>103</td>
+                <td>02/04/2021</td>
+                <td>29/04/2021</td>
+                <td>20</td>
+                <td>Solicitado</td>
+                <td>                    <form action="inicio.php" method="post">
+                        <input type="hidden" name="idVacaciones" value="9" />
+                        <input type="submit" value="Aprobar" name="btnAprobar" />
+                        <input type="submit" value="Rechazar" name="btnRechazar" />
+                    </form>
+                                    </td>
+
+                        </tr>
+                    <tr>
+                <td>102</td>
+                <td>06/05/2021</td>
+                <td>30/05/2021</td>
+                <td>17</td>
+                <td>Rechazado</td>
+                <td>                </td>
+
+                        </tr>
+                    <tr>
+                <td>102</td>
+                <td>02/05/2021</td>
+                <td>03/05/2021</td>
+                <td>1</td>
+                <td>Solicitado</td>
+                <td>                    <form action="inicio.php" method="post">
+                        <input type="hidden" name="idVacaciones" value="11" />
+                        <input type="submit" value="Aprobar" name="btnAprobar" />
+                        <input type="submit" value="Rechazar" name="btnRechazar" />
+                    </form>
+                                    </td>
+
+                        </tr>
+                    <tr>
+                <td>104</td>
+                <td>15/06/2021</td>
+                <td>17/06/2021</td>
+                <td>3</td>
+                <td>Solicitado</td>
+                <td>                    <form action="inicio.php" method="post">
+                        <input type="hidden" name="idVacaciones" value="12" />
+                        <input type="submit" value="Cancelar" name="btnCancelar" />
+                    </form>
+                                        <form action="inicio.php" method="post">
+                        <input type="hidden" name="idVacaciones" value="12" />
+                        <input type="submit" value="Aprobar" name="btnAprobar" />
+                        <input type="submit" value="Rechazar" name="btnRechazar" />
+                    </form>
+                                    </td>
+
+                        </tr>
+                </table>
+    </body>
+</html>

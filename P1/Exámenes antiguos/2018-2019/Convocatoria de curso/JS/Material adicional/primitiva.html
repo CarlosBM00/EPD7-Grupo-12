@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="js/primitiva.js" type="text/javascript"></script>
+        <title>Primitiva - PA - Examen JS, jQuery, Plugins</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Primitiva - PA - Examen JS, jQuery, Plugins</h1>
+        <div id='formulario'>
+            Combinaciones:
+            <div id="combinaciones">
+                <div id="combinacion1">
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/>
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/> 
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/> 
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/> 
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/> 
+                    <input type="text" size="5" class="numPrimitiva" onkeyup="validar(this)"/>                     
+                    <span></span>
+                </div>
+            </div>
+            <button onclick="agregarCombinacion()">Agregar combinación</button>
+            <button onclick="comprobar()">Comprobar</button>
+        </div>
+</html>
